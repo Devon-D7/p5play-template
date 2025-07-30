@@ -29,3 +29,13 @@ function update() {
 
 	if (mouse.presses()) ball.vel.y = -5;
 }
+function setup() {
+  createCanvas(400, 400);
+  background(220);
+  textSize(32);
+  textAlign(CENTER, CENTER);
+  text('Hello, p5play!', width / 2, height / 2);
+}
+function draw() {
+  // Your game code will go here
+}
